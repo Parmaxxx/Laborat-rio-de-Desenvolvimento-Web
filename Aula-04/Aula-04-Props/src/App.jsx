@@ -32,7 +32,6 @@ function App() {
 
   return (
     <>
-      <div>
         <ShowUserName name="Ricardo" />
         {users.map((users) => (
           <UserDetails
@@ -51,7 +50,6 @@ function App() {
             ano={cars.ano}
           />
         ))}
-      </div>
     </>
   );
 }

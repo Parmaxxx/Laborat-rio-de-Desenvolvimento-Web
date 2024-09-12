@@ -1,9 +1,9 @@
 import React from "react";
 
-const CarDetails = (marca, km, cor, ano) => {
+const CarDetails = ({ marca, km, cor, ano }) => {
   return (
     <>
-      <div className="card" style="width: 18rem;">
+      <div className="card" style={{ width: '18rem' }}>
         <div className="card-header">Carro</div>
         <ul className="list-group list-group-flush">
           <li className="list-group-item">Marca : {marca}</li>
